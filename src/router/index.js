@@ -5,6 +5,7 @@ import InitComponent from '../front/components/init.front.component.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
