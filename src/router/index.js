@@ -1,17 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import InitComponent from '../front/components/init.front.component.vue'
+import FrontRouter from './../front/router'
+import AdminRouter from './../admin/router'
+import ErrorRouter from './../errors/router'
 
 Vue.use(Router)
 
+let aRoutes = [FrontRouter, AdminRouter, ErrorRouter]
+
 export default new Router({
+  linkActiveClass: 'is-active',
   mode: 'history',
-  routes: [
-    {
-      path: '/',
-      name: 'Init',
-      component: InitComponent
-    }
-  ]
+  routes: aRoutes
 })
-// ToDo: Make this file to export front and admin router child

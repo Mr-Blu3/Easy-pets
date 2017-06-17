@@ -1,3 +1,2 @@
-/**
- * Created by mr-blue on 2017-06-06.
- */
+// Module will include all shared components, interfaces and classes, will be overkill
+// to include other module in common folder i think

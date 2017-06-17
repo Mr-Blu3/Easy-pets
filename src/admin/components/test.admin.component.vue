@@ -1,6 +1,6 @@
 <template>
   <div class="admin">
-    Admin Init
+    Test Adim Component
   </div>
 </template>
 

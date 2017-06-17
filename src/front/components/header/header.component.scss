@@ -1,0 +1,26 @@
+@import '../../../global-styles/colors';
+@import "./../../../global-styles/bootstrap-overwrite";
+
+header {
+  background: $White;
+  border-bottom: 1px solid $LightGrey;
+}
+
+ul {
+  >:first-child {
+    border-left: 0;
+  }
+  li {
+    display: inline-block;
+    border-left: 1px solid $LightGrey;
+    a {
+      color: $Black;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+  }
+}

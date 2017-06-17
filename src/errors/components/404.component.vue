@@ -1,6 +1,6 @@
 <template>
   <div class="init">
-  <p>Init project</p>
+  <p>404 page</p>
   </div>
 </template>
 
