@@ -126,7 +126,7 @@
   .single-product {
     box-shadow: 10px 10px 5px #888888;
     margin: 20px 0px 20px;
-    min-height: ;
+
   }
 
 </style>
